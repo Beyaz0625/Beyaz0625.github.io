@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(48, 34, 199, 0.845);
+    text-align: center;
+}
+.biodiv{
+    margin-top:6ch;
+}
+.mdiv{
+    background-color: rgba(220, 226, 231, 0.386);
+    position: relative;
+    margin: auto;
+    
+}
