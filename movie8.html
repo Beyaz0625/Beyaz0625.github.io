@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yüzüklerin Efendisi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(bgesas.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .container {
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        .table-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            border: 2px solid #333333;
+            background-color: rgba(192, 192, 192, 0.5);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #333333;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .image-table {
+            width: 25%;
+        }
+
+        .image-table img {
+            width: 100%;
+            display: block;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2196f3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        #home-button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #4c7daf;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    
+    #home-button:hover {
+      background-color: #4560a0;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center><h1>Lord Of The Rings</h1></center>
+
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Title of the movie</th>
+                    <td>Yüzüklerin Efendisi</td>
+                </tr>
+                <tr>
+                    <th>Director and Producer</th>
+                    <td>Peter Jackson</td>
+                </tr>
+                <tr>
+                    <th>Lead Actors</th>
+                    <td>Elijah Wood, Ian McKellen, Viggo Mortensen</td>
+                </tr>
+                <tr>
+                    <th>Rating</th>
+                    <td>PG-13</td>
+                </tr>
+                <tr>
+                    <th>Movie Description</th>
+                    <td>Lord of the Rings, J.R.R. It is a film series based on Tolkien's epic fantasy novel series of the same name. Set in Middle-earth, this epic adventure follows a group of brave adventurers as they struggle against the Evil Lord Sauron.</td>
+                </tr>
+                <tr>
+                    <th>Film review</th>
+                    <td><a href="https://www.rottentomatoes.com/m/the_lord_of_the_rings_the_fellowship_of_the_ring">Go to review</a></td>
+                </tr>
+            </table>
+
+            <table class="image-table">
+                <tr>
+                    <td><img src="lotr.jpg" alt="Film Resmi"></td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="button-container">
+            <a href="Bad_Web_Site.pdf" class="button">1. Bad Web Site PDF</a>
+            <a href="Good_Web_Site.pdf" class="button">2. Good Web Site PDF</a>
+        </div>
+    </div>
+    <button id="home-button" onclick="window.location.href='index.html'">Go Back to Homepage</button>
+</body>
+</html>
